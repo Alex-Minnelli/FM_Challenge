@@ -1,0 +1,31 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    --color-blue-dark: hsl(223, 47%, 23%);
+    --color-blue-desaturated: hsl(224, 23%, 55%);
+    --color-blue-veryPale: hsl(225, 100%, 98%);
+    --color-blue-pale: hsl(225, 100%, 94%);
+    --color-blue-bright: hsl(245, 75%, 52%);
+}
+
+h1{
+    color:var(--color-blue-dark);
+}
+
+body{
+    text-align: center;
+    background-image: url("/images/pattern-background-desktop.svg");
+}
+
+#box{
+    background-image: none;
+    background-color: var(--color-blue-pale);
+    border-radius: 25px;
+}
+
+#info{
+    background-color: var(--color-blue-veryPale);
+}
+
+#payment{
+    background-color: var(--color-blue-bright);
+}
